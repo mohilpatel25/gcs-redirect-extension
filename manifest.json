@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "GCS Redirector",
+  "version": "1.0",
+  "description": "Redirects gsutil uri (starting with gs://) to url in google cloud console.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
+}
